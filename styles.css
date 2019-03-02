@@ -3,12 +3,61 @@ body {
 	font-family: sans-serif;
 	
 	background-color: #d1e4ff;
-	margin-top: 0;
-	margin-bottom: 0;
+	margin: 0;
+	width: 100%;
 
 
 }
 
+
+.wysiwyg {width: 980px;
+	
+	background-color: #ffffff;
+	
+	margin-left: auto;
+    margin-right: auto;
+  
+	padding: 30px;
+}
+
+.wysiwyg code {
+background-color: #f0e6d6;
+	font-family: monospace;	
+}
+
+.wysiwyg kbd {
+	background-color: #eadcea;
+	font-family: monospace;
+}
+
+.wysiwyg samp{
+	background-color: #eadcea;
+	font-family: monospace;
+}
+
+.wysiwyg blockquote {
+	background-color:#eadcea;
+	height: 56;
+	border-left-color: #b496b4;
+	border-left-style: solid;
+	border-left-width: 4px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 40px;
+	padding-right: 40px;
+	margin-right: 0px;
+	margin-left: 0px;
+	
+}
+
+.wysiwyg pre {
+	background-color:#f0e6d6;
+	padding-top: 11px;
+	padding-bottom: 11px;
+	padding-left: 12px;
+}
+
+/*
 .bg {
 	width: 980px;
 	
@@ -49,7 +98,7 @@ body {
 
 .bgpink {
 	background-color:#f0e6d6;
-}
+}*/
 
 .square {
 	list-style: square;
